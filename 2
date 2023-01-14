@@ -1,0 +1,128 @@
+def func1(arg1, arg2):
+    var30 = func2(arg2, arg1)
+    var50 = func3(arg2, var30)
+    var51 = func6()
+    var55 = func7(var30, arg2)
+    var59 = func9(var30, arg2)
+    var60 = ((-518 & -260725572) + var55) | var55
+    var61 = -851488924 + var51 - var51 + var59
+    var62 = 874 | arg2 + var55 & var30
+    var63 = (var51 + 188) - var51 | arg1
+    var64 = (arg2 - var51) + var55
+    var65 = arg1 | (arg2 & var30) + var59
+    var66 = (179 + var55 + var55) - 107
+    var67 = var65 + var61
+    var68 = var50 ^ (var50 + var51 | var62)
+    var69 = arg1 | (var51 | var30)
+    var70 = ((var59 | arg2) | var64) | var63
+    var71 = var66 ^ var65 | var61
+    var72 = var65 - var66 + var55 - var67
+    if var59 < var55:
+        var73 = ((var30 + var64) + var66) & var71
+    else:
+        var73 = var68 ^ var50
+    var74 = var51 & var66 - var51
+    result = (var59 - var67) ^ var74 & (var69 | var70) & var70 + arg2 ^ var74
+    return result
+def func6():
+    func4()
+    result = len(range(23))
+    func5()
+    return result
+def func5():
+    global len
+    del len
+def func4():
+    global len
+    len = lambda x : -3
+def func3(arg31, arg32):
+    var33 = 272435389 ^ -105 + arg31 - -1826522766
+    var34 = arg31 | arg32 ^ 4
+    var35 = arg31 & arg31
+    var36 = var35 + var35 - var35
+    if var33 < var34:
+        var37 = var35 | arg31
+    else:
+        var37 = ((arg32 + var36) ^ var36) ^ arg31
+    var38 = (var35 | (var33 - arg31)) & -357614540
+    if arg32 < var35:
+        var39 = arg31 + 826 | var36
+    else:
+        var39 = var36 | var36 | arg31
+    var40 = var35 + arg31
+    var41 = -2049975736 + (var36 + var33) - var38
+    var42 = 1774784541 - var35
+    var43 = (arg31 + var35 - 692) - var36
+    var44 = var33 | 649341173 & var42 | var33
+    if var38 < var41:
+        var45 = (var36 & 1510892277 + var38) ^ var40
+    else:
+        var45 = var42 - arg31 | -201019356 ^ var36
+    var46 = var43 | ((1244929303 - var34) + var42)
+    var47 = var43 & arg32
+    var48 = var42 - var44 & (-2141595958 + var34)
+    var49 = var46 + var35
+    result = (((var40 - var40 | var48 & var33 ^ var33) + -794 + var47) ^ var48 & var35 & var35) + var33 ^ arg31
+    return result
+def func2(arg3, arg4):
+    var5 = arg3 - 602418341
+    var6 = 1455274684 | arg4
+    var7 = (arg4 - var6 + arg4) & 1515592590
+    var8 = arg3 & arg4
+    var9 = arg4 | var6 ^ var7
+    var10 = arg3 - 267994616
+    var11 = (arg4 + var8 - var8) | var9
+    var12 = -758646587 - arg3
+    var13 = (var10 ^ -1727049809) | arg4
+    var14 = var6 | arg4 - var8 - var12
+    var15 = (var6 + var8 & var13) + var10
+    var16 = arg4 | -713 - var11 - 1356036063
+    var17 = (var10 | -103 ^ var9) + var12
+    var18 = var6 | var13
+    if var14 < var12:
+        var19 = var18 | var14 + var15
+    else:
+        var19 = arg3 & arg3
+    var20 = var14 | var13
+    var21 = arg3 ^ var17
+    if var9 < var14:
+        var22 = (arg3 - var17) | var15
+    else:
+        var22 = (-2069077462 & var11 + var11) & var10
+    var23 = var9 + var14
+    var24 = var17 | var10 + -623 ^ var13
+    var25 = var16 - var24
+    var26 = var10 + var18
+    var27 = var13 + var23
+    var28 = arg3 & var7
+    var29 = var21 & var6 - arg3 | var17
+    result = (var27 | var21 | (var11 + var14)) & arg4 | (var7 ^ ((var8 + var5 | (var29 - var20)) | -29 & var12))
+    return result
+def func7(arg52, arg53):
+    def func8(acc, rest):
+        var54 = acc + -5
+        if acc == 0:
+            return var54
+        else:
+            result = func8(acc - 1, var54)
+            return result
+    result = func8(10, 0)
+    return result
+def func9(arg56, arg57):
+    def func10(acc, rest):
+        var58 = rest | -9
+        if acc == 0:
+            return var58
+        else:
+            result = func10(acc - 1, var58)
+            return result
+    result = func10(10, 0)
+    return result
+if __name__ == "__main__":
+    print 'prog_size: 5'
+    print 'func_number: 11'
+    print 'arg_number: 75'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
